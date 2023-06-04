@@ -1,1 +1,9 @@
+# Remonter machine Windows 
+Dans service active le "service SNMP" si il y est pas l'ajouter dans les service de l'AD
+Le parametrer dans sécurité mettre le nom de communautée "EyesOfNetwork" et mettre l'ip de l'host 172.50.6.70
+redemarer le service SNMP 
 
+# Remonter machine Linux 
+apt-get install snmpd snmp
+systemctl enable snmpd
+systemctl status snmpd
