@@ -9,3 +9,4 @@ systemctl enable snmpd
 systemctl status snmpd
 
 https://wiki.mdl29.net/lib/exe/fetch.php?media=braveo:asterisk_linksys_spa_de_a_a_z.pdf
+ssh 192.168.4.239 -p 8020 -l admin-lb
