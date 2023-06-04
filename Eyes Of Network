@@ -7,3 +7,5 @@ redemarer le service SNMP
 apt-get install snmpd snmp
 systemctl enable snmpd
 systemctl status snmpd
+
+https://wiki.mdl29.net/lib/exe/fetch.php?media=braveo:asterisk_linksys_spa_de_a_a_z.pdf
